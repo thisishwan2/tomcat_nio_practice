@@ -60,7 +60,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    # jar 빌드
+    # jar 빌드(github action에서 제안하는 빌드방법을 사용하면 빌드가 제대로 안됨)
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
