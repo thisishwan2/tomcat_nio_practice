@@ -1,1 +1,8 @@
-spring.application.name=tomcat_nio_practice
+## application.yml (적어놓은 값은 default)
+#server:
+#  tomcat:
+#    threads:
+#      max: 10 # 생성할 수 있는 thread의 총 개수
+#    max-connections: 5 # 수립가능한 connection의 총 개수
+#    accept-count: 5 # 작업큐의 사이즈
+  port: 8080 # 서버를 띄울 포트번호
