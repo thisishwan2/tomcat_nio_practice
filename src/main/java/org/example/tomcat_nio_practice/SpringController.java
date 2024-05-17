@@ -24,7 +24,10 @@ public class SpringController {
 //        return "success";
 //    }
 
-
+    @GetMapping("/health_check")
+    public String healthCheck() {
+        return "OK";
+    }
 
 
     @GetMapping("/spring")
